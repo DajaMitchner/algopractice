@@ -78,3 +78,83 @@
 //     }
 //     return result;
 // }
+
+//Largest Elements
+// function largest(n,xs){
+
+//     xs.sort((a,b) => a-b)
+//     if (n === 0){
+//   return []
+//     }
+   
+//   return xs.slice(-n)
+// }
+
+// simple consecutive pairs
+// function pairs(ar){
+//     let count = 0
+//     for (let i = 0; i < ar.length; i+=2)
+//     if (Math.abs(ar[i] - ar[i+1]) === 1)
+//       count += 1
+//       return count
+//     };
+
+// FizzBuzz
+// function fizzbuzz(n){
+//     let x = []
+//     for (let i = 1; i <= n; i++){
+//     if (i % 3 === 0 && i % 5 === 0){
+//       x.push("FizzBuzz")}
+//     else if (i % 3 === 0 && i % 5 !== 0){
+//       x.push("Fizz")}
+//     else if (i % 3 !== 0 && i % 5 === 0){
+//       x.push("Buzz")}
+//       else {x.push(i)}
+//       }
+//       return x
+//   }
+
+//Growth of a Population
+// function nbYear(p0, percent, aug, p) {
+//     let result = []
+//   percent = percent / 100
+//       for (let i= 0; p0 <= p-1; p0+=p0*percent+aug){
+//        let years = p0 + p0 * percent +aug;
+//         result.push(years)
+//       }
+//     return result.length
+//   }
+
+// find the calculation type
+// function calcType(a, b, res) {
+//     if (a + b === res){
+//       return "addition"
+//     }
+//     if (a - b === res){
+//       return "subtraction"
+//     }
+//     if (a * b === res){
+//       return "multiplication"
+//     }
+//     if (a / b === res){
+//       return "division"
+//     }
+//   }
+
+// javascript array filter
+// function getEvenNumbers(numbersArray){
+//     return numbersArray.filter(number => number % 2 === 0)
+//     }
+
+// triple trouble
+// function tripleTrouble(one, two, three){
+//     one.split(' ')
+//     two.split(' ')
+//     three.split(' ')
+//     let four = ''
+//     for (let i = 0; i < one.length; i++){
+//       four += one[i] + two[i] + three[i]
+//     }
+//     return four
+//    }
+
